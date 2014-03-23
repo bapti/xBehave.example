@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace xBehave.example
+namespace xBehave.example.Infrastructure
 {
-    public class Class1
+    public interface ISettings
     {
+        string BaseUrl { get; }
     }
 }
